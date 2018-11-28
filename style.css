@@ -1,0 +1,190 @@
+/**********meyer reset*************************/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**********************************************/
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-image: url("images/gundam.jpg");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#content {
+  color: black;
+  background-color: #DCDCDC;
+  position: absolute;
+  margin-top: 70px;
+  left: 120px;
+  width: 45%;
+  height: 70%;
+  border: 6px solid #696969;
+  overflow: auto;
+}
+
+#content p, ul {
+  color: blue;
+}
+
+.divUL {
+  display: inline-block;
+  text-align: left;
+}
+
+.divUL ul {
+  margin-top: 10px;
+  padding: 5px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+#divUL ul, li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+}
+
+#stayimg {
+  padding-top: 20px;
+  height: 40%;
+  width: 50%;
+}
+
+#blogo {
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+#glogo {
+  height: 150px;
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sizeID {
+  height: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gradeClass {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rgradeClass {
+  width: 620px;
+  height: 660px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toolClass {
+  height: 300px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h2title {
+  text-decoration: underline;
+  font-size: larger;
+  color: 	#B22222;
+}
+
+.h2title2 {
+  text-decoration: underline;
+  font-size: larger;
+  color: 	#B22222;
+  margin-top: 20px;
+}
+
+.audio {
+  text-align: center;
+}
+
+hr.doubleline {
+	border-top: 3px double #8c8b8b;
+}
+
+p {
+  margin: 5px;
+  padding: 5px;
+}
